@@ -1,0 +1,11 @@
+input[type="radio"]:checked + span {
+    display: block;
+}
+
+input:checked + div {
+    @apply border-orange-700;
+}
+
+input:checked + div svg {
+    @apply block;
+}
